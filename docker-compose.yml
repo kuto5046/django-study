@@ -1,0 +1,14 @@
+version: "3"
+services:
+  web:
+    build: .
+    volumes:
+      - $PWD:/work/
+    ports: 
+      - "8000:8000"
+    working_dir: /work/
+    hostname: Docker5046
+    container_name: Django_ubuntu
+    tty: True
+
+

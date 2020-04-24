@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action='', method='POST'>{% csrf_token %}
+    <input type='submit' value='Delete' >
+    <input type="button" onclick="history.back()" value="Return">
+</form>
+{% endblock content %}

@@ -1,0 +1,13 @@
+{
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "workspaceFolder": "/work/",
+    "settings":{"python.pythonPath": "/usr/bin/python3",
+                "terminal.integrated.shell.linux": "/usr/local/bin/xonsh"},
+
+    "extensions": ["ms-python.anaconda-extension-pack",
+                   "grapecity.gc-excelviewer",
+                   "ms-python.python",
+                   "tabnine.tabnine-vscode",
+                   "gruntfuggly.todo-tree"]
+}
